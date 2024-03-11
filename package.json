@@ -1,0 +1,16 @@
+{
+  "name": "simplest-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node node_modules/simplest-blog-engine/generator/compile.js publish",
+    "edit": "node node_modules/simplest-blog-engine/generator/watch-css.js",
+    "blog": "node node_modules/simplest-blog-engine/generator/compile.js && node node_modules/simplest-blog-engine/server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simplest-blog-engine": "github:bbraithwaite/simplest-blog-engine"
+  }
+}
