@@ -2,6 +2,7 @@
 date: 2024-01-01
 title: How to Write a Post
 popular: 1
+slug: blog/example-post
 ---
 
 To write a simple paragraph, you just write one... like this!
@@ -59,9 +60,9 @@ Images are added like this:
 - &#123;image source|img alt text&#125;
 - &#123;image source|img alt text|width|height&#125;
 
-{/images/example.jpg|example of images}
+{{{siteUrl}}/images/example-1.jpg|example of images}
 
-{/images/example.jpg|example of images|200|100}
+{{{siteUrl}}/images/example-1.jpg|example of images|200|100}
 
 ---
 

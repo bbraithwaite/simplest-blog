@@ -2,6 +2,7 @@
 date: 2024-01-02
 title: Introducing Simplest Blog
 popular: 1
+slug: blog/simplest-blog
 ---
 
 The last time I published a new post to one of my blogs, the entire site layout was broken due to my custom templates no longer being compatible with the latest version of the software used by the platform in question. This was caused by breaking changes introduced by more than one of the 3rd party libraries being used by this platform. I then had to spend time I didn't have trying to fix the various issues in production. Before I was able to debug and fix the breakage, I had to update a bunch of libraries in my local environment to get parity with the hosting platform. It's not the first time that this happened to me. This is why I created this. A minimal blog generator that will stop that from happening to me again.
