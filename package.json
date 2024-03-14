@@ -1,6 +1,6 @@
 {
   "name": "simplest-blog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "simplest-blog-engine": "github:bbraithwaite/simplest-blog-engine#v1.0.1"
+    "simplest-blog-engine": "github:bbraithwaite/simplest-blog-engine#6e44705f095134aee6adc767396676e877a50af5"
   }
 }
