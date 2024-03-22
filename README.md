@@ -2,6 +2,10 @@
 
 ## Get started
 
+Clone:
+
+> git clone https://github.com/bbraithwaite/simplest-blog.git
+
 Once cloned, run:
 
 > npm install
